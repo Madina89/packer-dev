@@ -5,6 +5,7 @@
       "instance_type": "m5.large",
       "source_ami": "ami-0bbc25e23a7640b9b",
       "ssh_username": "ec2-user",
+      "ssh_keypair_name": "MAC",
       "ami_name": "updated-jenkins-ami  {{timestamp}}"       
     }],
     "provisioners": [{
@@ -21,13 +22,14 @@
             ]
           },
           {
-            "type": "breakpoint",
-            "note": "Stop after jenkins instalation"     
-          },
-          {
+          
             "type": "file",
             "source": "test_file",
             "destination": "/tmp/test_file"
-          }
+          },
+          {
+            "type": "breakpoint",
+            "note": "Stop after jenkins instalation"     
+        }
     ]
 }
