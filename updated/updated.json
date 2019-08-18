@@ -6,5 +6,12 @@
       "source_ami": "ami-0bbc25e23a7640b9b",
       "ssh_username": "ec2-user",
       "ami_name": "updated-ami  {{timestamp}}"       
-    }]
+    }],
+    "provisioners": [{
+            "type": "shell",
+            "inline": [
+                "sudo yum update -y"
+            ]
+          }
+    ]
   }
