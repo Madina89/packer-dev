@@ -17,7 +17,6 @@
                 "sudo yum install jenkins -y",
                 "sudo systemctl enable jenkins",
                 "sudo systemctl start jenkins",
-                "sudo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSm+Kp0RZy4iRlH/Xsq3TSGWYr8QxScCP4PPEAJ7UFYKT+ZRiTYhZerz21bzJ5X7LXbta2kRSQRpE2bQ+4IUXWEOP8hMdSXPhYYt+UGp8pER9oOo7y3lqZ9jKGOk3Q0u1IQStuQjyNhsVvxc/JAomE8RKw0jxmWZWxFOFxUXBG7pTV//zMIk0Qf5e/cZEdK//1ND/NrVyrX86nWu85SFxNxX5XjtcO+PaP9FCtZoDth+UZvcacic+epvUQGbJ7unV/ymgt04rzQsy9pyfkUC8t3LOxxIYoFsHU8uq9V9LP9j6p9la5Pgcqubxd9OeGDgzeHyM/t5pQQ9Mxr9Tb4cHT madina@MacBook-Pro-odil.local"
             ]
           },
           {
