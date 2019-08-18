@@ -23,6 +23,11 @@
           {
             "type": "breakpoint",
             "note": "Stop after jenkins instalation"     
+          },
+          {
+            "type": "file",
+            "source": "test_file",
+            "destination": "/tmp/test_file"
           }
     ]
 }
