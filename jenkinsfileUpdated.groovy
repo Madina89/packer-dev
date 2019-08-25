@@ -1,4 +1,3 @@
-
 pipeline{
     agent any
     stages{
@@ -61,7 +60,7 @@ pipeline{
         }
         stage("Build Image"){
             steps{
-                sh 'packer build -var "region=${REGION}" -var "AMI=${AMI}" updated/updated.json'
+                sh 'packer build -var "region=${REGION}" updated/updated.json'
                 echo "Hello"
             }
         }
