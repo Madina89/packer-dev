@@ -1,4 +1,3 @@
-
 pipeline{
     agent any
     stages{
@@ -59,7 +58,6 @@ pipeline{
                 }
             }
         }
-        
         stage("Build Image"){
             steps{
                 //sh "packer build updated/updated.json"
