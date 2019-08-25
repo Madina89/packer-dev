@@ -3,7 +3,7 @@
       "type": "amazon-ebs",
       "region": "{{user `region` }}",
       "instance_type": "t2.micro",
-      "source_ami": "ami-0b898040803850657",
+      "source_ami": "{{user `AMI` }}",
       "ssh_username": "ec2-user",
       "ami_name": "updated-ami  {{timestamp}}"       
     }],
