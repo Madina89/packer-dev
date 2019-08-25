@@ -59,11 +59,7 @@ pipeline{
                 }
             }
         }
-        stage("Pull Repo"){
-            steps{
-                git("https://github.com/Madina89/packer_april.git")
-            }
-        }
+        
         stage("Build Image"){
             steps{
                 //sh "packer build updated/updated.json"
